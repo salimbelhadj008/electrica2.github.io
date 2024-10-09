@@ -84,15 +84,22 @@
             flex-direction: column;
             background-color: #b15252;
             padding: 5px;
-            width: 70px;
+            border-radius: 10px; /* Rounded edges */
+            width: 60px; /* Smaller width */
         }
         .icon-button {
             border: none;
             background: none;
             cursor: pointer;
-            font-size: 16px; /* Make smaller */
+            font-size: 14px; /* Smaller font size */
             margin: 2px 0;
             color: white;
+            border-radius: 8px; /* Rounded edges for buttons */
+            padding: 5px; /* Add padding for buttons */
+            transition: background-color 0.3s;
+        }
+        .icon-button:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
         }
 
         /* Responsive Styles */
@@ -177,4 +184,5 @@
     </script>
 </body>
 </html>
+
 
